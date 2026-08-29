@@ -49,6 +49,12 @@
 apk add bash curl jq
 bash <(curl -fsSL https://raw.githubusercontent.com/byJoey/xray-cf-lite/main/xray_cf_lite.sh)
 ```
+如果是debian/Ubuntu，执行
+```bash
+sudo apt update
+sudo apt install -y bash curl jq
+bash <(curl -fsSL https://raw.githubusercontent.com/byJoey/xray-cf-lite/main/xray_cf_lite.sh)
+```
 
 首次运行后自动注册快捷命令 `x`，之后直接输入：
 
